@@ -1,3 +1,4 @@
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -19,4 +20,49 @@
     vertical-align: middle;
     background-color: aqua;
     
+  }
+body {
+    background-color: rgb(199, 197, 209)
+}
+
+
+
+header {
+
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inner_main_menu {margin: 0 auto; width: 1000px;height: 90px;}
+.inner_main_menu ul{margin: 0; padding: 30px 0 0; list-style:none;text-align: right;}
+.inner_main_menu ul li{float: none; display: inline-block;}
+.inner_main_menu ul li:nth-child(1){float: left;}
+.inner_main_menu ul li:nth-child(2){float: left;}
+.inner_main_menu ul li:nth-child(3){float: right;}
+.inner_main_menu ul li a{color:rgb(168, 155, 143);display:block;padding: 10px 20px; text-decoration: none; text-transform: uppercase; letter-spacing: 3px;}
+.inner_main_menu ul li a:hover{color:beige}
+
+#main_menu{width: 100%;height: 90px;background-color: antiquewhite;border-radius: 15px 50px;}
+
+.logo_area{padding-right: 30px;}
+
+* {
+    box-sizing: border-box;
+  }
+
+.main {
+    max-width: 1000px;
+    margin-top: 100px;
+    padding-top: 60px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
   }
