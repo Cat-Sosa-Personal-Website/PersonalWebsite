@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="styleshiz.css">
-    <script src="jscript.js"></script>
+    <script defer src="jscript.js"></script>
     <title>Contact</title>
     
 </head>
@@ -26,23 +26,24 @@
     </nav>
 </nav>
     </header>
+    <h1>Contact Form</h1>
     <div class="Container">
-        <form action="" target="_blank" >
+        <form id ="form">
 
             <label for="fname">First Name: </label>
-            <input type="text" value="first name" placeholder="first name" id="firstname">
+            <input type="text" value="first name" placeholder="first name" id="firstname"><br>
 
             <label for="lname">Last Name: </label>
-            <input type="text" value="last name" placeholder="last name" id="lastname">
+            <input type="text" value="last name" placeholder="last name" id="lastname"><br>
             
             <label for="email">Email: </label>
-            <input type="text" value="email" placeholder="email" id="email">
+            <input type="text" value="email" placeholder="email" id="email"><br>
             
             <label for="message">Message: </label>
             <textarea id="message" name="message" placeholder="Type message here" style="height:200px"></textarea>
             
         
-            <button>submit</button>
+            <button id="submit">Submit</button>
 
     </div>
 </body>
